@@ -1,0 +1,36 @@
+.prop-result {
+    .prop-title {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 28px;
+    }
+    .serach-container {
+        //background-color: rgb(248, 248, 248);
+        padding: 10px !important;
+        border-top: 1px solid #bbbbbb;
+        border-bottom: 1px solid #bbbbbb;
+    }
+    .card {
+        border-radius: 0px !important;
+        //border: 2px solid red;
+        img {
+            border-radius: 0px !important;
+        }
+
+        .card-address {
+            text-align: center;
+            text-decoration: none !important;
+            text-transform: uppercase;
+        }
+
+        .card-titles {
+            text-align: center;
+        }
+
+        .card-price {
+            text-align: center;
+            font-weight: 700;
+        }
+    }
+}

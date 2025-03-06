@@ -1,0 +1,29 @@
+.form-container {
+    margin-top: 10%;
+    .card {
+        //box-shadow: 5px 10px #c4c4c4;
+        border: 2px solid #d3d3d3;
+        border-radius: 0px;
+        .card-header {
+            border: 0px;
+            text-align: center;
+        }
+
+        .btn-container {
+            text-align: center;
+            button {
+                border-radius: 0px;
+                width: 80%;
+            }
+        }
+
+        .option {
+            text-align: center;
+        }
+
+        .links {
+            color: #0d6efd;
+        }
+    }
+    
+}

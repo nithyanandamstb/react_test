@@ -1,0 +1,23 @@
+.form-inline {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: auto;
+    .custom-select {
+        width: 70%;
+    }
+    @media (min-width: 481px) and (max-width: 767px) {
+        //display: block;
+    }
+}
+.custom-select {
+    width: 100%;
+    margin-right: 10px;
+    height: 30px;
+    border-radius: 0px;
+    font-size: 14px;
+    border: 1px solid #e7e7e7;
+}
+.neighbourhood-sel {
+    width: 80% !important;
+}
